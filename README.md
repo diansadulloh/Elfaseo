@@ -1,4 +1,4 @@
-Red Lounge
+Elfaseo
 ===========
 
 Porting from [hugo-redlounge](https://github.com/tmaiaroto/hugo-redlounge)
