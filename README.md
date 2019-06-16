@@ -1,5 +1,5 @@
 # Elfaseo
-Fast and SEO optimized Hugo Theme
+### Fast and SEO optimized Hugo Theme
 ===========
 
 Porting from [hugo-redlounge](https://github.com/tmaiaroto/hugo-redlounge)
