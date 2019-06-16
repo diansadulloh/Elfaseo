@@ -1,0 +1,44 @@
+{{ partial "doctype.html" . }}
+<head>
+  <title>
+    {{ .Title }}{{ if ne .Title .Site.Title }} // {{ .Site.Title }}{{ end }}
+  </title>
+
+  {{ partial "meta.html" . }}
+
+  {{ partial "og.html" . }}
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/base-min.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/pure-min.css">
+  <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/grids-responsive-min.css">
+  <!--<![endif]-->
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/redlounge.css">
+  <link href="{{ .Site.BaseURL }}/css/font-awesome.min.css" rel="stylesheet">
+  <link href="{{ .Site.BaseURL }}/css/font.css" rel='stylesheet' type='text/css'>
+  
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/favicon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png">
+
+  <!-- RSS -->
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+  {{ partial "syntaxhighlight.html" . }}
+
+  {{ if .Params.lightbox }}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/lightbox.css">
+  <script src="{{ .Site.BaseURL }}/js/lightbox.min.js"></script>
+  {{ end }}
+
+  {{ if .Site.Params.categoriescss }}
+    <link rel="stylesheet" type="text/css" href="{{ .Site.Params.categoriescss }}">
+  {{ end }}
+
+  {{ template "_internal/google_analytics.html" . }}
+
+  {{ partial "headend.html" . }}
+  
+</head>

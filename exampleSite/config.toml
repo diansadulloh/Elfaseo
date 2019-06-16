@@ -1,0 +1,54 @@
+baseURL = "/"
+languageCode = "en-us"
+theme = "Elfaseo"
+title = "Elfaseo"
+pagination = 10
+nocomment = true # Disqus Comment
+
+
+[params]
+	sidebartitle = "Elfaseo"
+	sidebartagline = "Fast and SEO optimized"
+
+	
+# Google Analytics	
+	#gaid = "UA-XXXXXXXX-X" 
+
+	
+# Sidebar Menu	
+	
+[[menu.main]]
+    name = "Get in touch"
+    url = "/page/contact"	
+
+[[menu.main]]
+    name = "Development"
+    url = "/categories/development"	
+
+[[menu.main]]
+    name = "Themes"
+    url = "/categories/theme"
+
+# Footer Menu		
+	
+[[menu.footer]]
+    name = "Home"
+    url = "/"
+	
+[[menu.footer]]
+    name = "Who Am I"
+    url = "/page/about"
+	
+
+[[menu.footer]]
+    name = "Sitemap"
+    url = "/sitemap.xml"
+	
+[[menu.footer]]
+    name = "Privacy Policy"
+    url = "/page/privacy-policy"
+	
+[[menu.footer]]
+    name = "RSS Feed"
+    url = "/index.xml"
+	
