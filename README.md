@@ -1,9 +1,10 @@
-Elfaseo
+# Elfaseo
+Fast and SEO optimized Hugo Theme
 ===========
 
 Porting from [hugo-redlounge](https://github.com/tmaiaroto/hugo-redlounge)
 
-
+![gtmetrix](https://raw.githubusercontent.com/emozonic/Elfaseo/master/images/gtmetrix.png)
 
 This is an open-source Hugo theme designed by [@shift8creative](http://www.twitter.com/shift8creative) to be responsive and clean. It uses Pure.css and contains a few web fonts from Google as well as Font Awesome icons. 
 So despite it being simple, it has a lot of flexibility in terms of typography and design elements. It's also quite configurable as it has a few variables to change the
@@ -19,7 +20,6 @@ The sidebar can be configured with your main site config using params. For examp
 [params]
 	sidebartitle = "My Site"
 	sidebartagline = "Is super awesome"
-	sidebarphoto = "/img/photo.png"
 ```
 
 This three properites will not be shown if not set. You will want to keep these lines short since there's limited space. 
@@ -39,7 +39,7 @@ Google Analytics can be configured with your main site config by entering the Go
 There are a few menus this theme allows you to define (all optional) in your main config.
 
 Main - This menu is pretty basic and goes on the left panel under the site title and description. It contains red markers to separate items and call attention to the 
-fact that it is more important than the other lists/menus that you may have on your site. It is optional, but always shows a link to the home page.    
+fact that it is more important than the other lists/menus that you may have on your site. It is optional, but always shows a link to the home page.
 This would be a good place to link to your various sections.
 
 ```
@@ -49,7 +49,7 @@ This would be a good place to link to your various sections.
 ```
 
 
-Social - This menu goes underneath the main menu and was originally designed to contain links out to social media accounts, RSS, etc. making use of Font Awesome.    
+Social - This menu goes underneath the main menu and was originally designed to contain links out to social media accounts, RSS, etc. making use of Font Awesome.
 However, you can use it for whatever you want. Just keep in mind space is limited here on the left panel.
 
 ```
@@ -59,7 +59,7 @@ However, you can use it for whatever you want. Just keep in mind space is limite
     identifier = "twitter"
 ```
 
-Footer - The footer menu might also contain links to social media accounts...It's up to you. It appears right above the copyright notice at the bottom of each page.    
+Footer - The footer menu might also contain links to social media accounts...It's up to you. It appears right above the copyright notice at the bottom of each page.
 This menu is simply plain text links centered and they are gray to match the footer. So there's less attention being drawn here. Perhaps good for notices, terms of service, etc.
 
 ```
