@@ -3,18 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/Elfaseo/basic-elements/</loc>
+    <loc>/Elfaseo/2019/01/basic-elements/</loc>
     <lastmod>2019-01-09T20:41:25+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/Elfaseo/syntax-highlighting/</loc>
+    <loc>/Elfaseo/2018/04/syntax-highlighting/</loc>
     <lastmod>2018-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/Elfaseo/creating-a-new-theme/</loc>
+    <loc>/Elfaseo/2014/09/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/Elfaseo/2019/</loc>
+    <lastmod>2019-01-09T20:41:25+07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -32,6 +38,18 @@
   <url>
     <loc>/Elfaseo/</loc>
     <lastmod>2019-01-09T20:41:25+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/Elfaseo/2018/</loc>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/Elfaseo/2014/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on Elfaseo</title>
-    <link>/Elfaseo/categories/development/</link>
-    <description>Recent content in Development on Elfaseo</description>
+    <title>2018s on Elfaseo</title>
+    <link>/Elfaseo/2018/</link>
+    <description>Recent content in 2018s on Elfaseo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Jan 2019 20:41:25 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 15 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/Elfaseo/categories/development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/Elfaseo/2018/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Basic HTML Elements</title>
-      <link>/Elfaseo/2019/01/basic-elements/</link>
-      <pubDate>Wed, 09 Jan 2019 20:41:25 +0700</pubDate>
-      
-      <guid>/Elfaseo/2019/01/basic-elements/</guid>
-      <description>&lt;p&gt;The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>Hugo Syntax Highlighting</title>
