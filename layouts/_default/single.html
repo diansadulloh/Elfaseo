@@ -5,10 +5,8 @@
 			<span class="decorative-marker">//</span><a href="#top">To Top</a>
 		</div>
 	{{ end }}
-
 	<div id="layout" class="pure-g">
-    {{ partial "sidebar.html" . }}
-
+  {{ partial "sidebar.html" . }}
 	{{ if .Params.banner }}
 	<div class="content-banner-image pure-u-1 pure-u-md-3-4" style="{{ if .Params.bannerheight }}height: {{ .Params.bannerheight }}px;{{ end }}">
 		<img src="{{ .Params.banner }}" class="pure-img" style="{{ if .Params.bannerfill }}width: 100%;{{ end }}" />
@@ -82,14 +80,13 @@
 
 			{{ if not .Params.nopaging }}
 				<div class="paging">
-					<span class="paging-label">Baca Juga:</span>
+					<span class="paging-label">Also Read:</span>
 					{{ if .PrevPage }}
 					<div class="paging-newer">
 						<span class="dark-red"></span><span class="decorative-marker">//</span>
 						<a class="paging-link" href="{{ .PrevPage.RelPermalink }}">{{ .PrevPage.Title }}</a>
 		            </div>
 		            {{ end }}
-
 					{{ if .NextPage }}
 					<div class="paging-older">
 						<span class="dark-red"></span><span class="decorative-marker">//</span>
