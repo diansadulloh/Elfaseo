@@ -3,7 +3,7 @@
 
 
 * Porting from [hugo-redlounge](https://github.com/tmaiaroto/hugo-redlounge)
-* Demo [https://emozonic.github.io/Elfaseo/](https://emozonic.github.io/Elfaseo/)
+* Demo [https://diansadulloh.github.io/Elfaseo/](https://emozonic.github.io/Elfaseo/)
 
 
 ![gtmetrix](https://raw.githubusercontent.com/emozonic/Elfaseo/master/images/gtmetrix.png)
